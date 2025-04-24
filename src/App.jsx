@@ -13,8 +13,8 @@ const App = () => {
       </div>
       <Home />
       <div className="text-center mt-5">
-        <h2 className="text-lg text-gray-800">Powered by Image Inhancer</h2>
-        <p className="text-lg text-gray-500">
+        <h2 className="text-md text-gray-800">Powered by Image Inhancer</h2>
+        <p className="text-sm text-gray-500">
           Developer ♥{" "}
           <a
             href="https://www.github.com/ashrafulislam08"
