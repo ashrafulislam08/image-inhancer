@@ -23,7 +23,7 @@ const ImagePreview = ({ loading, uploaded, enhanced }) => {
         </h2>
 
         {enhanced && !loading && (
-          <img src={uploaded} alt="" className="w-full h-full object-cover" />
+          <img src={enhanced} alt="" className="w-full h-full object-cover" />
         )}
 
         {loading ? (
