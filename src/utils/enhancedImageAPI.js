@@ -58,7 +58,7 @@ const fetchEnhancedImage = async (task_id) => {
   return data.data;
 };
 
-const PollForEnhancedImage = async (taskId, retries) => {
+const PollForEnhancedImage = async (taskId, retries = 10) => {
   const result = await fetchEnhancedImage(taskId);
 
   if (result.state === 4) {
